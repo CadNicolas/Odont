@@ -42,7 +42,7 @@ class _ListView4State extends State<ListView4> {
             Text('2do Tratamiento:',
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, fontSize: 20.0)),
-            Text('Ortodoncia::', style: const TextStyle(fontSize: 25.0)),
+            Text('Ortodoncia:', style: const TextStyle(fontSize: 25.0)),
             Text('Fecha: 02/02/2022',
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, fontSize: 20.0)),
@@ -76,7 +76,7 @@ class _ListView4State extends State<ListView4> {
             Expanded(
               child: FittedBox(
                 fit: BoxFit.contain, // otherwise the logo will be tiny
-                child: FlutterLogo(),
+                //child: FlutterLogo(),
               ),
             ),
           ],

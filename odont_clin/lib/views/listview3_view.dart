@@ -50,7 +50,7 @@ class _ListView3State extends State<ListView3> {
             Expanded(
               child: FittedBox(
                 fit: BoxFit.contain, // otherwise the logo will be tiny
-                child: FlutterLogo(),
+                //child: FlutterLogo(),
               ),
             ),
           ],
